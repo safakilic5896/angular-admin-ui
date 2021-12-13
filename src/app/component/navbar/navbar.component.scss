@@ -1,0 +1,40 @@
+.content {
+  background-color: #313466;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  color: white;
+  margin-left: 5px;
+}
+
+.white-icon {
+  color: white;
+}
+
+.title-element {
+  display: flex;
+  align-items: center;
+  flex-basis: 60%;
+}
+
+::ng-deep button {
+  background-color: inherit;
+  color: white;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 580px) {
+  .element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
