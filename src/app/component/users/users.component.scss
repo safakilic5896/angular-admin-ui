@@ -1,0 +1,34 @@
+table {
+  width: 100%;
+}
+
+.example-section {
+  margin: 12px 0;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+.button-size {
+  width: 5.5vw !important;
+}
+
+::ng-deep .mat-form-field-wrapper {
+  width: 5.5vw !important;
+  padding: 1px 1px 1px 1px !important;
+}
+
+[mat-row].remove-background {
+  background: none ;
+}
+
+.grayColor {
+  background-color: dimgrey;
+}
+
+.inputModify {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
